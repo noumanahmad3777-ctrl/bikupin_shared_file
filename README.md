@@ -11,3 +11,9 @@ python .\phase3_collect_answers.py --probe
 
 python .\verify_ingestion.py --query-check
 
+
+
+PS C:\Users\NAHMA\bikupan> helm install bikupan ./helm
+level=ERROR msg="cluster reachability check failed: kubernetes cluster unreachable: the server has asked for the client to provide credentials"                   
+Error: INSTALLATION FAILED: cluster reachability check failed: kubernetes cluster unreachable: the server has asked for the client to provide credentials         
+PS C:\Users\NAHMA\bikupan> c   
