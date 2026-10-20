@@ -1,0 +1,724 @@
+{
+  "golden_dataset": [
+    {
+      "question": "Vad är det för stöd man kan få för sin jordbruksmark?",
+      "answer": "Gårdsstödet är ett arealbaserat inkomststöd som ska ge lantbrukare skäliga inkomster.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Hur stor mark behöver jag ha för att kunna få gårdsstöd?",
+      "answer": "Du behöver minst 4 hektar jordbruksmark.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Jag ska söka gårdsstöd. Vilka marker är det som räknas som jordbruksmark?",
+      "answer": "Åkermark, betesmark och slåtteräng.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Jag odlar energiskog. Ger det rätt till gårdsstöd?",
+      "answer": "Ja, energiskog ger rätt till gårdsstöd.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Om jag tänker odla hampa, måste jag söka gårdsstöd då?",
+      "answer": "Ja, du måste söka gårdsstöd för att odla hampa.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Vad räknas egentligen som jordbruksverksamhet?",
+      "answer": "Uppfödning av djur, odling av jordbruksprodukter eller verksamhet för att behålla marken som jordbruksmark.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Jag har skogsbete på min mark. Kan jag få gårdsstöd för den?",
+      "answer": "Nej, skogsbete ger inte rätt till gårdsstöd. Detsamma gäller alvarbete och våtmarker.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "En del av marken har vuxit igen och blivit försumpad. Räknas den fortfarande som jordbruksmark?",
+      "answer": "Nej, igenväxt eller försumpad mark räknas inte som jordbruksmark när du söker gårdsstöd.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Inom vilket spann brukar stödbeloppet ligga per hektar?",
+      "answer": "Mellan 130 och 147 euro per hektar.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Vad landade gårdsstödet på 2025?",
+      "answer": "134,80 euro per hektar.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Får jag pengarna i euro eller i kronor?",
+      "answer": "Stödet bestäms i euro men betalas ut i svenska kronor.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Vilken eurokurs användes för utbetalningarna 2025?",
+      "answer": "1 euro = 11,06 kronor.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Jag har hört att man får ett tillägg genom omfördelning av stöd. Hur mycket rör det sig om?",
+      "answer": "14,00–17,10 euro extra per hektar, för upp till och med 150 hektar jordbruksmark som du får gårdsstöd för.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Hur mycket blev omfördelningstillägget 2025?",
+      "answer": "16,40 euro per hektar.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Vem är det som kan söka gårdsstöd, och vilket datum utgår man från?",
+      "answer": "Den som har rätt att använda marken, ansvarar för drift och förvaltning den 15 juni och redovisar marken i sin SAM-ansökan.",
+      "question_type": "multihop",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Vilket datum måste jag ha minst 4 hektar med i ansökan?",
+      "answer": "Den 9 april.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Jag hinner inte få ihop 4 hektar till sista ansökningsdagen. Hur mycket minskar stödet då?",
+      "answer": "Med 1 procent per arbetsdag till och med den 4 maj.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Vad händer om jag fortfarande inte når upp till 4 hektar den 4 maj?",
+      "answer": "Då får du inget gårdsstöd alls.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Finns det någon minsta storlek på skiftena?",
+      "answer": "Ja, varje skifte måste vara minst 0,1 hektar.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "När senast på året måste det synas att jag skött hela skiftet?",
+      "answer": "Senast den 31 oktober.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Vad räknas som skötsel av marken?",
+      "answer": "Att du odlat, låtit beta, putsat, slagit av eller jordbearbetat marken.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "När på året får jag inte putsa trädan?",
+      "answer": "Mellan 1 april och 30 juni.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Min mark svämmar över nästan varje år. Räknas den som jordbruksmark?",
+      "answer": "Nej, mark som ofta översvämmas och därför inte kan brukas varje år räknas inte som jordbruksmark.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Hur mycket mark krävs för att automatiskt räknas som aktiv jordbrukare?",
+      "answer": "Mer än 36 hektar jordbruksmark totalt i SAM-ansökan.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Jag har djur i stället för stor areal. Hur många djurenheter behövs för att räknas som aktiv jordbrukare automatiskt?",
+      "answer": "Mer än 50 djurenheter totalt i SAM-ansökan.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Var gör jag själva ansökan?",
+      "answer": "I e-tjänsten SAM Internet.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "När går ansökningstiden ut för gårdsstöd 2026?",
+      "answer": "Den 9 april 2026.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Jag är sen med ansökan 2026. Vad händer om den kommer in efter den 4 maj?",
+      "answer": "Då får du inget stöd alls för 2026.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Kan jag lägga till mer mark efter att jag skickat in ansökan?",
+      "answer": "Ja, fram till den 15 juni.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "När kommer pengarna för 2026?",
+      "answer": "Utbetalningarna börjar i december 2026.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/stod/jordbruk-tradgard-och-rennaring/jordbruksmark/gardsstod"
+    },
+    {
+      "question": "Min hund är sjuk. Får jag transportera den ändå?",
+      "answer": "Nej, sjuka eller skadade hundar får inte transporteras.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Jag vet inte om min hund klarar en transport. Vem ska jag fråga?",
+      "answer": "Kontakta en veterinär.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "När får jag absolut inte lämna hunden ensam i bilen?",
+      "answer": "När temperaturen i bilen kan bli över +25 °C eller under -5 °C.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Min hund ska åka bil i 8 timmar. Hur ofta måste jag rasta den och ge den vatten?",
+      "answer": "Minst var sjätte timme.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur ofta behöver hunden få mat under en lång bilresa?",
+      "answer": "Minst var 24:e timme.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Får hunden åka i bagageutrymmet?",
+      "answer": "Ja, om du har god uppsikt över den under hela transporten.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur säkrar jag hunden så att den inte kastas framåt vid en inbromsning?",
+      "answer": "Med transportbur, lastgaller eller ett säkerhetsbälte anpassat för hundar.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Vad ska jag tänka på om jag använder en bur?",
+      "answer": "Buren ska vara utformad och placerad så att hunden får skugga och god ventilation.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Jag har mycket packning i bilen tillsammans med hunden. Vad gäller?",
+      "answer": "Bagage och andra föremål får inte kunna falla över hunden och skada den.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur länge får hunden vara kvar i en parkerad bil?",
+      "answer": "Högst 3 timmar.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Kan jag ha hunden i bilen medan jag jobbar?",
+      "answer": "Nej, hunden får inte förvaras regelbundet i ett fordon när du arbetar.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur mycket plats behöver hunden ha när den åker bil?",
+      "answer": "Den ska kunna stå upp, vända sig och ligga ner bekvämt.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur räknar jag ut hur lång transportburen behöver vara?",
+      "answer": "Hundens längd gånger 1,10.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur bred måste buren minst vara?",
+      "answer": "Hundens bröstbredd gånger 2,5.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur får jag fram rätt höjd på buren?",
+      "answer": "Mät hundens höjd över hjässan när den står i normal ställning.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Min tik löper och vi ska åka iväg med flera hundar. Vad gäller?",
+      "answer": "Hon ska transporteras åtskild från hanhundar.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Min tik ska valpa om två veckor och vi ska åka 20 mil. Går det?",
+      "answer": "Nej. En dräktig tik får inte transporteras längre än 5 mil om det är 2 veckor eller mindre kvar till beräknad valpning.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur snart efter valpningen får tiken följa med på en längre resa?",
+      "answer": "Tidigast 1 vecka efter valpningen, om resan är längre än 5 mil.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur gammal måste en valp vara för att få transporteras?",
+      "answer": "Minst 1 vecka, och naveln ska vara helt läkt.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur transporterar jag en tik som har diande valpar?",
+      "answer": "Tillsammans med valparna, men åtskilda från andra djur.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hunden har skadat sig akut och jag har varken bur eller bälte hemma. Får jag köra den till veterinären ändå?",
+      "answer": "Ja, i brådskande fall får du transportera en sjuk eller skadad hund till veterinär även om kraven inte är uppfyllda.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Jag transporterar hundar yrkesmässigt. Vad gäller vid i- och urlastning?",
+      "answer": "Du ska använda lämplig utrustning.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur ska hundutrymmet vara avskilt i ett fordon som används i yrkesmässig verksamhet?",
+      "answer": "Det ska vara avskärmat mot personutrymmet med galler eller nät.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Vad gäller för sol och ventilation i utrymmet där hundarna åker?",
+      "answer": "Utrymmet ska skydda mot solljus och ventileras mekaniskt med en fläkt som fungerar även när motorn är avstängd.",
+      "question_type": "multihop",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Kan hundarna bo kvar i transportfordonet mellan uppdragen?",
+      "answer": "Nej, hundar får inte förvaras permanent i ett transportmedel.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Behöver jag skylt på bilen när jag bara kör min egen hund?",
+      "answer": "Nej, personbilar som inte används för transporter inom ekonomisk verksamhet behöver ingen skylt.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Var ska skyltarna sitta på ett svenskregistrerat fordon som transporterar djur?",
+      "answer": "Både fram och bak.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Vad kan hända om papperen inte är kompletta när jag reser utomlands med hunden?",
+      "answer": "Hunden kan nekas inträde och skickas tillbaka till Sverige, eller i värsta fall avlivas direkt.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "När måste hundarna besiktigas av veterinär före en transport?",
+      "answer": "När du tar betalt för transporten, eller när du transporterar hundar som en del av din ekonomiska verksamhet och alltså själv är transportör.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Hur lång tid i förväg behöver jag börja planera en utlandsresa med hunden?",
+      "answer": "Förberedelserna kan behöva påbörjas upp till 4 månader före avresan.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/djur/hundar-katter-och-smadjur/hundar/transportera-hundar"
+    },
+    {
+      "question": "Vad innebär integrerat växtskydd, IPM?",
+      "answer": "Det handlar om en hållbar användning av växtskyddsmedel.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad är det man bekämpar genom att kombinera olika åtgärder i integrerat växtskydd?",
+      "answer": "Ogräs, svampsjukdomar och skadeinsekter i odlingen.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Måste jag jobba med integrerat växtskydd?",
+      "answer": "Ja, alla som använder växtskyddsmedel ska tillämpa integrerat växtskydd.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad är det första steget i integrerat växtskydd?",
+      "answer": "Att förebygga växtskyddsproblem.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad kommer härnäst efter det förebyggande arbetet?",
+      "answer": "Att bevaka skaderisken i odlingarna eller fälten.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad är den tredje grunden i IPM?",
+      "answer": "Att behovsanpassa åtgärderna.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad är det sista man gör av de fyra grunderna?",
+      "answer": "Följer upp och utvärderar bekämpningsåtgärderna.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad är den enskilt viktigaste förebyggande åtgärden mot ogräs och skadegörare?",
+      "answer": "En varierad växtföljd.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Jag odlar samma gröda år efter år. Vad blir följden?",
+      "answer": "Ökande problem med vissa ogräs och skadegörare.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Jag sår mest på hösten. Vilka ogräs gynnar det?",
+      "answer": "Höstgroende ogräs.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vilka ogräs gynnas om jag sår på våren i stället?",
+      "answer": "Vårgroende ogräs.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad mer än växtföljden avgör vilka ogräs som gynnas i fältet?",
+      "answer": "Valet av jordbearbetningssystem.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "På vilka sätt kan olika sorter av samma växtslag skilja sig åt?",
+      "answer": "I sjukdomsresistens, växtsätt och vinterhärdighet.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad vinner jag på att välja en sjukdomsresistent sort?",
+      "answer": "Du kan effektivt undvika problem med vissa sjukdomar.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad krävs för att grödan ska få en bra start?",
+      "answer": "Friskt utsäde med hög grobarhet och friskt plantmaterial.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad gör grödan sämre på att stå emot och kompensera för skador?",
+      "answer": "Stress av torka, näringsbrist eller för mycket vatten.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Hur sprids skadegörare och ogräs mellan gårdar?",
+      "answer": "Lätt via transporter, handel och maskinsamverkan.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Jag har upptäckt ett nytt ogräs i fältet. Vad bör jag göra?",
+      "answer": "Bekämpa det så fort som möjligt för att minska spridningen.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vi ska gräva på flera platser på gården. Hur undviker vi att sprida ogräs?",
+      "answer": "Gör rent maskinerna mellan de olika platserna.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Jag odlar i växthus och har fått in en smitta. Vad minskar risken att den sprids vidare?",
+      "answer": "Att ta bort de smittade plantorna.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vilka gräsogräs är dyrast och sänker skörden mest i vissa grödor?",
+      "answer": "Renkavle och hönshirs.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Jag tror att jag hittat en karantänskadegörare i odlingen. Vad gör jag?",
+      "answer": "Anmäl misstanken till Jordbruksverket.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vilken nytta gör nyttodjuren i odlingen?",
+      "answer": "De äter upp skadedjur.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Varför ska jag följa utvecklingen i mina odlingar?",
+      "answer": "För att kunna sätta in rätt växtskyddsåtgärd vid rätt tidpunkt.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Hur bör jag gå när jag kontrollerar ett fält?",
+      "answer": "Längs en diagonal linje.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Hur många plantor brukar man titta på vid varje kontrollställe i fältet?",
+      "answer": "10 plantor.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vad är fällor bra för i odlingen?",
+      "answer": "De är en metod för att bevaka skadegörare.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Hur många principer bygger behovsanpassningen på?",
+      "answer": "Fem principer.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Vem är det som godkänner växtskyddsmedel?",
+      "answer": "Kemikalieinspektionen.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Jag odlar potatis och trädgårdsgrödor. Är nollrutor något att använda?",
+      "answer": "Nej, nollrutor rekommenderas inte där, förutom vid ogräskontroll.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/vaxter/odling/vaxtskydd/vaxtskyddsatgarder"
+    },
+    {
+      "question": "Jag ska börja handla med livsmedel från jordbruket. Vilka av Jordbruksverkets regler berör mig?",
+      "answer": "Reglerna om handelsnormer, växtskydd och import- och exportlicenser.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vilken myndighet står bakom de flesta reglerna när man hanterar livsmedel?",
+      "answer": "Livsmedelsverket.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad måste färsk frukt och grönt som säljs inom EU leva upp till?",
+      "answer": "EU:s handelsnormer.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Jag säljer mina grönsaker i gårdsbutiken. Gäller handelsnormerna då?",
+      "answer": "Nej, försäljning direkt från den egna gården är undantagen.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad måste stå på märkningen av färsk frukt, grönt, bär, örter och nötter?",
+      "answer": "Bland annat ursprungsland.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Behöver jag anmäla min verksamhet om jag handlar med frukt och grönt?",
+      "answer": "Ja, du måste registrera verksamheten hos Jordbruksverket.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad gäller när jag importerar frukt, grönsaker, bär, örter eller nötter?",
+      "answer": "Sändningen ska anmälas för kontroll.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vilka livsmedel kräver växtpass när de säljs i Sverige eller till andra EU-länder?",
+      "answer": "Citrusfrukter med stjälkar och blad (Citrus, Fortunella, Poncirus och hybrider av dessa).",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad är ett växtpass för något?",
+      "answer": "Ett intyg om att produkten har kontrollerats för reglerade växtskadegörare av företaget som säljer eller förflyttar den.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Varför finns växtpass?",
+      "answer": "För att hindra spridning av reglerade växtskadegörare och kunna spåra dem vid behov.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Finns det frukt eller grönsaker som är helt förbjudna att importera från vissa länder?",
+      "answer": "Ja, potatis är ett exempel på en produkt som kan omfattas av importförbud från vissa länder eller delar av världen.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad krävs för färska frukter, grönsaker, bär och örter som kommer från länder utanför EU?",
+      "answer": "Sundhetscertifikat.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Jag importerar nötter från ett land utanför EU. Behöver de sundhetscertifikat?",
+      "answer": "Ja, om det är färska nötter som har kvar det gröna ytterhöljet.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vilka färska frukter slipper kravet på sundhetscertifikat?",
+      "answer": "Ananas, banan, dadlar, durian och kokosnöt.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vilka spannmålsslag kan kräva sundhetscertifikat?",
+      "answer": "Vete, råg och rågvete, när de kommer från vissa angivna länder.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad är ett sundhetscertifikat?",
+      "answer": "Ett dokument från exportlandets växtskyddsmyndighet som visar att produkterna kontrollerats och är fria från reglerade växtskadegörare.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Jag ska importera ris. När behöver jag licens?",
+      "answer": "Vid import av minst 1 000 kilo.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Behövs licens för att importera hampa?",
+      "answer": "Ja, oavsett mängd.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Var går gränsen för licens vid import av jordbruksetanol?",
+      "answer": "Vid minst 100 hektoliter.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Är det något jag måste betala in när jag ansöker om licens?",
+      "answer": "Ja, ett säkerhetsbelopp.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad betyder fri rörlighet för varor inom EU?",
+      "answer": "Att det inte ska finnas handelshinder eller tullar på varor vid handel med andra EU-länder.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Tillkommer det några avgifter när jag köper in varor från länder utanför EU?",
+      "answer": "Du kan behöva betala tull.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Hur tar jag reda på vilken tullsats EU tar ut på en vara jag vill importera?",
+      "answer": "Använd Tullverkets tjänst för att söka i tulltaxan.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad heter varukoden som finns för alla produkter i tulltaxan?",
+      "answer": "KN-nummer.",
+      "question_type": "faktafråga",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Hur många siffror i KN-numret behöver jag ange för att få fram tullsatsen?",
+      "answer": "Tio siffror.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Jag vill exportera. Var ser jag vilken tull andra länder tar ut på varor från EU och Sverige?",
+      "answer": "I EU:s databas Access2Markets.",
+      "question_type": "scenario",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad kallas det när tullfrihet eller lägre tull bara gäller upp till en viss mängd eller ett visst belopp?",
+      "answer": "Tullkvoter.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad kan jag behöva för att kunna utnyttja en tullkvot?",
+      "answer": "En kvotlicens.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vad ska framgå av intyget för humle som säljs inom EU?",
+      "answer": "Var humlet producerats, när det skördades och vilken eller vilka sorter det är.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    },
+    {
+      "question": "Vem kontrollerar att kraven på humleintyg följs?",
+      "answer": "Tullverket.",
+      "question_type": "parafras",
+      "source": "https://jordbruksverket-utv.intern.jordbruksverket.se/mat-och-drycker/handel-och-marknad/handel-med-livsmedel-fran-jordbruket"
+    }
+  ]
+}
