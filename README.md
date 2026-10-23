@@ -23,4 +23,11 @@ PS C:\Users\NAHMA\bikupan> c
 ssh kubernetes@kubeuser.intern.jordbruksverket.se genuser > $HOME/.kube/config
 
 
-Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/query" -Method Post -ContentType "application/json" -Body '{"query":"What kind of support can you get for farmland?","top_k":5}'
+PS C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2> Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/query" -Method Post -ContentType "application/json" -Body '{"query":"What kind of support can you get for farmland?","top_k":5}'
+Invoke-RestMethod : Internal Server Error
+At line:1 char:1
++ Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExcep 
+   tion
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
