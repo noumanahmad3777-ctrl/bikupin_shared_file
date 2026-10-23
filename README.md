@@ -25,25 +25,19 @@ ssh kubernetes@kubeuser.intern.jordbruksverket.se genuser > $HOME/.kube/config
 
 
 
-curl.exe -i -X POST "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -H "Content-Type: application/json" --data-binary "{"query":"Vad ar det for stod","top_k":5}"
-HTTP/1.1 422 Unprocessable Content
-Date: Fri, 23 Oct 2026 12:17:25 GMT
-Content-Type: application/json
-Content-Length: 158
-Connection: keep-alive
+Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json" -Body '{"query":"Vad ar det for stod","top_k":5}'
 
-{"detail":[{"type":"json_invalid","loc":["body",1],"msg":"JSON decode error","input":{},"ctx":{"error":"Expecting property name enclosed in double quotes"}}]}curl: (3) URL rejected: Port number was not a decimal number between 0 and 65535
-curl: (6) Could not resolve host: ar
-curl: (6) Could not resolve host: det
-curl: (6) Could not resolve host: for
-curl: (3) unmatched close brace/bracket in position 13:
-stod,top_k:5}
-            ^
-PS C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2>
+
+
+$body = '{"query":"Vad är det för stöd man kan få för sin jordbruksmark?","top_k":5}'
+Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json; charset=utf-8" -Body ([System.Text.Encoding]::UTF8.GetBytes($body))
+
+
+Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json" -Body '{"query":"What kind of support can you get for farmland?","top_k":5}'
 
 
 
 
 
 
-curl.exe -i -X POST "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -H "Content-Type: application/json" --data-binary "{\"query\":\"Vad ar det for stod\",\"top_k\":5}"
+
