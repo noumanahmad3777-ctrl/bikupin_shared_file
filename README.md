@@ -25,19 +25,29 @@ ssh kubernetes@kubeuser.intern.jordbruksverket.se genuser > $HOME/.kube/config
 
 
 
-Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json" -Body '{"query":"Vad ar det for stod","top_k":5}'
+**PS C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2>
+PS C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2> Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json" -Body '{"query":"Vad ar det for stod","top_k":5}'
+Invoke-RestMethod : Internal Server Error
+At line:1 char:1
++ Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+PS C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2> $body = '{"query":"Vad är det för stöd man kan få för sin jordbruksmark?","top_k":5}' Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json; charset=utf-8" -Body ([System.Text.Encoding]::UTF8.GetBytes($body))
+At line:1 char:87
++ ...  kan få för sin jordbruksmark?","top_k":5}' Invoke-RestMethod -Uri "h ...
++                                                 ~~~~~~~~~~~~~~~~~
+Unexpected token 'Invoke-RestMethod' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
 
-
-
-$body = '{"query":"Vad är det för stöd man kan få för sin jordbruksmark?","top_k":5}'
-Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json; charset=utf-8" -Body ([System.Text.Encoding]::UTF8.GetBytes($body))
-
-
-Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json" -Body '{"query":"What kind of support can you get for farmland?","top_k":5}'
-
-
-
-
-
-
-
+PS C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2> Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -Method Post -ContentType "application/json" -Body '{"query":"What kind of support can you get for farmland?","top_k":5}'
+Invoke-RestMethod : Internal Server Error
+At line:1 char:1
++ Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], WebExc
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+PS C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2>**
