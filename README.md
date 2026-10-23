@@ -23,6 +23,4 @@ PS C:\Users\NAHMA\bikupan> c
 ssh kubernetes@kubeuser.intern.jordbruksverket.se genuser > $HOME/.kube/config
 
 
-
-
-https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/docs#/default/query_endpoint_query_post
+Invoke-RestMethod -Uri "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/query" -Method Post -ContentType "application/json" -Body '{"query":"What kind of support can you get for farmland?","top_k":5}'
