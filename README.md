@@ -25,26 +25,4 @@ ssh kubernetes@kubeuser.intern.jordbruksverket.se genuser > $HOME/.kube/config
 
 
 
-
-
-PS C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2> python .\phase3_collect_answers.py --probe
-POST https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks
-body: {"query": "Vad är det för stöd man kan få för sin jordbruksmark?", "top_k": 5}
-
-Traceback (most recent call last):
-  File "C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2\phase3_collect_answers.py", line 301, in <module>
-    main()
-    ~~~~^^
-  File "C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2\phase3_collect_answers.py", line 295, in main
-    probe()
-    ~~~~~^^
-  File "C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2\phase3_collect_answers.py", line 98, in probe
-    answer, contexts, raw = client.query(question)
-                            ~~~~~~~~~~~~^^^^^^^^^^
-  File "C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2\rag_client.py", line 268, in query
-    raw = self._request(cfg.QUERY_METHOD, full, cfg.QUERY_TIMEOUT, json_body=body)
-  File "C:\Users\NAHMA\gpu-helm-test\bikupan\ragas_demo\evaluation\test_v2\rag_client.py", line 196, in _request
-    raise RagApiError(
-        f"HTTP {resp.status_code} from {method} {url} :: {resp.text[:300]}",
-        status_code=resp.status_code, body=resp.text[:300])
-rag_client.RagApiError: HTTP 500 from POST https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks :: Internal Server Error
+curl.exe -i -X POST "https://sandbox-nahma-bikupan-data-query.tt.tuv.jordbruksverket.se/chunks" -H "Content-Type: application/json" --data-binary "{\"query\":\"Vad ar det for stod\",\"top_k\":5}"
